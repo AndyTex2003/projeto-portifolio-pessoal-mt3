@@ -1,0 +1,33 @@
+{
+  "name": "projeto-portifolio-pessoal-mt3",
+  "version": "1.0.0",
+  "description": "API para gerenciamento de alunos de ingles com Express, Prisma e PostgreSQL.",
+  "private": true,
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev",
+    "prisma:studio": "prisma studio"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.7.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "prisma": "^6.7.0",
+    "supertest": "^7.1.0",
+    "vitest": "^3.1.1"
+  }
+}
+

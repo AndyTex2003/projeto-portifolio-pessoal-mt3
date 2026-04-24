@@ -1,18 +1,28 @@
-# 🚀 Projeto Portfólio - API Escola
+# 🚀 API Escola - Backend com Node.js, Prisma e Testes de Integração
 
-API REST desenvolvida para gerenciamento de alunos de uma escola de inglês, com autenticação JWT, testes de integração e documentação interativa via Swagger.
+![Node.js](https://img.shields.io/badge/node.js-18+-green)
+![Tests](https://img.shields.io/badge/tests-12%20passing-brightgreen)
+![Status](https://img.shields.io/badge/status-complete-success)
 
 ---
 
 ## 🧠 Sobre o projeto
 
-Esta API permite:
+API REST desenvolvida para gerenciamento de alunos de uma escola de inglês.
 
-* 🔐 Autenticação de usuários (JWT)
-* 🎓 CRUD completo de alunos
-* 🧪 Testes de integração com Vitest + Supertest
-* 📄 Documentação com Swagger
-* 🗄️ Persistência com PostgreSQL (Docker) + Prisma ORM
+O projeto foi construído com foco em **boas práticas de backend**, incluindo autenticação, validação, testes automatizados e documentação.
+
+---
+
+## ⭐ Diferenciais
+
+* 🔐 Autenticação com JWT
+* 🧪 Testes de integração com Vitest e Supertest
+* 🗄️ Banco de dados PostgreSQL com Docker
+* ⚙️ ORM Prisma
+* 📄 Documentação interativa com Swagger
+* ✅ Validação robusta com Zod
+* 🧱 Arquitetura organizada (controllers, services, middlewares)
 
 ---
 
@@ -24,7 +34,7 @@ Esta API permite:
 * Prisma ORM
 * Docker
 * JWT (JSON Web Token)
-* Zod (validação)
+* Zod
 * Vitest + Supertest
 * Swagger (OpenAPI)
 
@@ -94,11 +104,11 @@ Usuário padrão para testes:
 
 ---
 
-## 📄 Documentação Swagger
+## 📄 Documentação da API
 
-Acesse:
+Acesse via navegador:
 
-```bash
+```
 http://localhost:3000/api-docs
 ```
 
@@ -112,7 +122,7 @@ Rodar testes de integração:
 npm test
 ```
 
-✔ Cobertura de cenários:
+### ✔ Cobertura
 
 * Sucesso (200 / 201)
 * Validação (400)
@@ -138,7 +148,7 @@ tests/
 
 ---
 
-## 🚀 Funcionalidades
+## 🚀 Endpoints principais
 
 ### Auth
 
@@ -153,20 +163,32 @@ tests/
 
 ---
 
-## 💡 Objetivo
+## 🧪 Qualidade
 
-Projeto desenvolvido para prática de:
+A API foi desenvolvida com foco em confiabilidade, incluindo:
 
-* Desenvolvimento backend
-* Testes de API
-* Boas práticas com Node.js
-* Estrutura profissional de aplicações
+* Testes de integração isolados
+* Dados independentes por teste
+* Limpeza automática de dados com Prisma
+* Validação de entrada com Zod
+
+---
+
+## 🎯 Objetivo
+
+Este projeto foi desenvolvido para prática e demonstração de:
+
+* Desenvolvimento backend com Node.js
+* Testes automatizados de API
+* Integração com banco de dados
+* Boas práticas de arquitetura
 
 ---
 
 ## 👨‍💻 Autor
 
-Anderson Santos
-[LinkedIn](https://www.linkedin.com/in/anderson-santos-qa/)
+**Anderson Santos**
+🔗 https://www.linkedin.com/in/anderson-santos-qa/
 
 ---
+

@@ -167,6 +167,6 @@ Projeto desenvolvido para prática de:
 ## 👨‍💻 Autor
 
 Anderson Santos
-[LinkedIn](https://www.linkedin.com/)
+[LinkedIn](https://www.linkedin.com/in/anderson-santos-qa/)
 
 ---

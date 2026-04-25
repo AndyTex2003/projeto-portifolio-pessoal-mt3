@@ -5,6 +5,10 @@ export default defineConfig({
     environment: 'node',
     globals: true,
     include: ['tests/**/*.test.js'],
-    passWithNoTests: true
+    passWithNoTests: true,
+    reporters: [
+      'default',
+      ['vitest-html-reporter', { outputFile: './reports/test-report.html' }]
+    ]
   }
 });

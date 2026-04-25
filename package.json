@@ -32,7 +32,8 @@
     "nodemon": "^3.1.10",
     "prisma": "^6.7.0",
     "supertest": "^7.1.0",
-    "vitest": "^3.1.1"
+    "vitest": "^3.1.1",
+    "vitest-html-reporter": "file:./tools/vitest-html-reporter"
   },
   "prisma": {
     "seed": "node prisma/seed.js"

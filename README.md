@@ -1,11 +1,9 @@
-# 🚀 API Escola de Inglês - Backend com Node.js, Prisma e Testes de Integração
+# 🚀 API Escola - Backend com Node.js, Prisma e Testes de Integração
 
 ![Node.js](https://img.shields.io/badge/Node.js-18+-green)
-![Tests](https://img.shields.io/badge/tests-29%20passed-success)
-![Vitest](https://img.shields.io/badge/Vitest-testing-blue)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-database-blue)
-![Prisma](https://img.shields.io/badge/Prisma-ORM-2D3748)
-![Swagger](https://img.shields.io/badge/Swagger-API--Docs-green)
+![Tests](https://img.shields.io/badge/tests-29%20passed-brightgreen)
+![Coverage](https://img.shields.io/badge/coverage-integration%20tested-blue)
+![Status](https://img.shields.io/badge/status-production--ready-success)
 
 ---
 
@@ -13,23 +11,25 @@
 
 API REST desenvolvida para gerenciamento de alunos de uma escola de inglês.
 
-O projeto foi construído com foco em boas práticas de backend, incluindo autenticação, validação, testes automatizados e documentação.
+O projeto foi construído com foco em **boas práticas de backend e qualidade de software**, incluindo autenticação, validação, testes automatizados e documentação.
 
 ---
 
 ## ⭐ Diferenciais
 
-* 🔐 Autenticação com JWT
-* 🧪 Testes de integração com Vitest e Supertest
-* 🗄️ Banco de dados PostgreSQL com Docker
-* ⚙️ ORM Prisma
-* 📄 Documentação interativa com Swagger
-* ✅ Validação robusta com Zod
-* 🧱 Arquitetura organizada (controllers, services, middlewares)
+🔐 Autenticação com JWT
+🧪 Testes de integração com Vitest e Supertest
+🗄️ Banco de dados PostgreSQL com Docker
+⚙️ ORM Prisma
+📄 Documentação interativa com Swagger
+✅ Validação robusta com Zod
+🧱 Arquitetura organizada (controllers, services, validators)
+📊 Gestão ágil com GitHub Projects
+📚 Documentação QA (Wiki + BDD + Test Cases)
 
 ---
 
-## 🛠 Tecnologias utilizadas
+## 🛠️ Tecnologias utilizadas
 
 * Node.js
 * Express
@@ -101,9 +101,7 @@ Usuário padrão para testes:
 
 Acesse via navegador:
 
-```
-http://localhost:3000/api-docs
-```
+👉 http://localhost:3000/api-docs
 
 ---
 
@@ -121,21 +119,34 @@ npm test
 * Validação (400)
 * Autenticação (401)
 * Não encontrado (404)
-* Regras de negócio (evolução de nível)
 
 ---
 
-## 📊 Relatório de Testes
+## 🧪 Relatório de Testes
 
-O projeto possui testes de integração cobrindo autenticação, alunos, aulas e regras de negócio.
+### 📊 Resumo
 
-### 🔍 Visão Geral
+![Resumo dos testes](docs/test-summary.png)
 
-![Resumo dos Testes](./docs/test-summary.png)
+### 📈 Detalhes
 
-### 📈 Regra de Negócio - Evolução de Nível
+![Detalhes dos testes](docs/test-progress.png)
 
-![Testes de Progresso](./docs/test-progress.png)
+---
+
+## 📊 Gestão do Projeto (Kanban)
+
+Board com User Stories e fluxo ágil:
+
+👉 https://github.com/AndyTex2003/projeto-portifolio-pessoal-mt3/projects
+
+---
+
+## 📚 Documentação QA
+
+Casos de teste, estratégia e BDD:
+
+👉 https://github.com/AndyTex2003/projeto-portifolio-pessoal-mt3/wiki
 
 ---
 
@@ -161,52 +172,49 @@ docs/
 
 ### Auth
 
-* POST /api/auth/login
+POST /api/auth/login
 
 ### Students
 
-* GET /api/students
-* POST /api/students
-* PUT /api/students/:id
-* DELETE /api/students/:id
+GET /api/students
+POST /api/students
+PUT /api/students/:id
+DELETE /api/students/:id
 
 ### Lessons
 
-* GET /api/lessons
-* POST /api/lessons
-* GET /api/lessons/:id
-* PUT /api/lessons/:id
-* DELETE /api/lessons/:id
+GET /api/lessons
+POST /api/lessons
 
 ### Progress
 
-* GET /api/progress
-* POST /api/progress
-* GET /api/progress/:id
+GET /api/progress
+POST /api/progress
 
 ---
 
 ## 🧪 Qualidade
 
-A API foi desenvolvida com foco em confiabilidade, incluindo:
+A API foi desenvolvida com foco em confiabilidade:
 
 * Testes de integração isolados
 * Dados independentes por teste
-* Limpeza automática de dados com Prisma
-* Validação de entrada com Zod
+* Limpeza automática com Prisma
+* Validação com Zod
 * Regras de negócio testadas (evolução de nível)
 
 ---
 
 ## 🎯 Objetivo
 
-Este projeto foi desenvolvido para prática e demonstração de:
+Este projeto demonstra:
 
 * Desenvolvimento backend com Node.js
 * Testes automatizados de API
 * Integração com banco de dados
 * Boas práticas de arquitetura
-* Pensamento de QA (testes + validação + regras de negócio)
+* Organização QA (Test Strategy, Test Cases, BDD)
+* Gestão ágil com Kanban
 
 ---
 
@@ -214,4 +222,3 @@ Este projeto foi desenvolvido para prática e demonstração de:
 
 **Anderson Santos**
 🔗 https://www.linkedin.com/in/anderson-santos-qa/
-
